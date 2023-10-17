@@ -15,7 +15,7 @@ def predecir_renta(modelo, entrada):
 
 
 # Cargar el modelo entrenado
-modelo = cargar_modelo("modelo_autogluon/")
+modelo = cargar_modelo("AutogluonModels/ag-20231017_211242")
 
 # Crear la aplicación web con Streamlit
 def main():
